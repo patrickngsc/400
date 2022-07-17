@@ -1,0 +1,166 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+.primary {
+    color: rgb(0, 23, 39);
+    background-color: rgb(232, 226, 255);
+}
+
+.primary th {
+    border: solid;
+}
+
+.primary td {
+    border: solid;
+}
+
+
+/*
+.nav_link:link {
+    color: brown;
+    text-decoration: none;
+}
+
+.nav_link:visited {
+    color: brown;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.nav_link:active {
+    color: brown;
+}
+*/
+
+.nav_link:hover {
+    opacity: 0.8;
+    transition-duration: 0.5s;
+    transform: scale(1.05);
+}
+
+.font-xl {
+    font-size: 15px;
+}
+
+#timetableView {
+    border: black;
+    border-style: solid;
+}
+
+#timetableView th {
+    border: black;
+    border-style: solid;
+}
+
+#timetableView td {
+    border: black;
+    border-style: solid;
+}
+
+#timetableView1 {
+    border: black;
+    border-style: solid;
+}
+
+#timetableView1 th {
+    border: black;
+    border-style: solid;
+}
+
+#timetableView1 td {
+    border: black;
+    border-style: solid;
+}
+
+th,
+tr {
+    margin: 100px;
+    padding: 10px;
+    border: solid;
+}
+
+td {
+    border: solid;
+}
+
+.unavailablecell {
+    background-color: red;
+}
+
+.recordList {
+    width: auto;
+}
+
+.recordList ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.recordList li {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    border-bottom: 1px dotted #777;
+}
+
+table {
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+    overflow-wrap: break-word;
+    background-color: white;
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+.navbar-container {
+    display: inline-flex;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar ul li:hover {
+    background-color: aliceblue;
+    transition: .5s;
+}
+
+.navbar h1 {
+    background-color: aqua;
+    padding: 30px;
+}
+
+#page-content {
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+    padding: 2%;
+}
+
+#import-section {
+    align-content: center;
+    border: solid;
+    padding: 10px;
+}
+
+#existing-section {
+    align-content: center;
+    border: solid;
+    padding: 10px;
+}
+
+#template-section {
+    align-content: center;
+    border: solid;
+    padding: 10px;
+}
